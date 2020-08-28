@@ -1,19 +1,12 @@
-.counter-container {
-  display: flex;
-  flex-direction: row;
+.lifecycles-container {
   justify-content: center;
-
-  .number {
-    margin: 0 20px;
-    font-size: 3rem;
-  }
 
   .action-button {
     background-color: black;
     color: white;
     border: 1px solid black;
     padding: 10px 20px;
-    font-size: 1.5rem;
+    margin-bottom: 5px;
     cursor: pointer;
 
     &:hover {
