@@ -6,13 +6,14 @@ import Project from './components/project/project.component';
 import ProjectFunctional from './components/project-functional/project-functional.component';
 import Counter from './components/counter/counter.component';
 import LifeCyclesContainer from './components/lifecycles-container/lifecycles-container.component';
+import EmployeeList from './components/employee-list/employee-list.component';
 
 import './App.scss';
 
 function App() {
   return (
     <div className='app'>
-      <LifeCyclesContainer />
+      <EmployeeList />
     </div>
   );
 }
